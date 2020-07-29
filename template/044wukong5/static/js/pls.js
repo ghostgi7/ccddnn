@@ -1,0 +1,1 @@
+﻿document.writeln("<div align=\"center\" style=\" height:30px;\"> <a href=\"http:\/\/www.dkdkmh.com\/ss.php?downfrom=2225\" target=\"_blank\"> <font color=\"#000000\" size=\"5\" style=\"text-align:center\"> <strong style=\"font-size: 13px;\">广告：★ 超品质AV体验，请下载看片直播APP★<\/strong><\/font> <\/a><\/div>");

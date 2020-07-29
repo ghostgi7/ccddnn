@@ -1,0 +1,182 @@
+.c_default {
+    color: #6a6a6a;
+}
+
+.c_white {
+    color: #fff !important;
+}
+
+.c_fa {
+    color: #fafafa;
+}
+
+.c_red {
+    color: #22a931;
+}
+
+.c_light_red {
+    color: rgb(50, 141, 233);
+}
+
+.c_pink {
+    color: #22a931;
+}
+
+.c_gray_blue {
+    color: #718083;
+}
+
+.c_black {
+    color: #333;
+}
+
+.bg_red {
+    background-color: #22a931;
+    color: #fff;
+    text-align: center;
+}
+
+.bg_fa {
+    background-color: #fafafa;
+    border: 1px solid #fff;
+}
+
+.bg_fa_red {
+    color: #22a931;
+    background-color: #fafafa;
+    border: 1px solid #fff;
+}
+
+.bg_gray_blue {
+    background-color: #e0eff2;
+    color: #718083;
+}
+
+.bg_light_gray_blue {
+    background-color: #eaf5f7;
+    color: #718083;
+}
+
+html,
+body {
+    background-color: #EDEDED;
+}
+
+.border_bootom {
+    border-bottom: 1px solid #ccc;
+}
+
+.first_title {
+    color: #444;
+    background-color: #eee;
+}
+
+.second_title {
+    color: #6a6a6a;
+    background-color: #eaeaea;
+}
+
+a:hover {
+    color: #22a931;
+}
+
+a:visited {
+    color: #22a931;
+}
+
+.border_bootom_default {
+    border-bottom: 1px solid #22a931;
+}
+
+
+/******************menu.html***********************/
+
+.row-item.even {
+    background-color: #d8d8d8;
+}
+
+.row-item.odd {
+    background-color: #eaeaea;
+}
+
+.row-item-content .item a {
+    color: #6a6a6a;
+}
+
+.row-item-content .item:hover a {
+    color: #22a931;
+}
+
+.player-detail .container .row {
+    background-color: #fafafa;
+}
+
+.film-operate .remark {
+    color: #22a931;
+}
+
+.film-operate .title {
+    background-color: #eaeaea;
+    color: #444;
+}
+
+.film-operate .title a {
+    color: #444;
+}
+
+.film-operate .title a:hover {
+    color: #22a931;
+}
+
+.film-operate .content a {
+    background: #efefef;
+    color: #666;
+}
+
+.film-operate .content a:hover {
+    color: #fafafa;
+    background: #666;
+}
+
+.enter-content .btt-content {
+    border-bottom: 1px solid #22a931;
+}
+
+.enter-content .down-content {
+    border-bottom: 1px solid #22a931;
+}
+
+.enter-content .tip-content {
+    border-right: 1px solid #22a931;
+}
+
+.down_date {
+    background: rgba(127, 135, 235, 0.8);
+    color: #eee;
+}
+
+.nav li {
+    background-color: #22a931;
+}
+
+.pagination a {
+    background-color: #f1f1f1;
+    color: #777;
+}
+
+.pagination a:hover {
+    background-color: #22a931;
+    color: #fff;
+    text-shadow: 1px 1px 1px #22a931;
+}
+
+.pagination strong {
+    background-color: #22a931;
+    color: #fff;
+    text-shadow: 1px 1px 1px #22a931;
+}
+
+.scroll-mian ul li {
+    background: #22a931;
+    border: 1px solid #22a931;
+}

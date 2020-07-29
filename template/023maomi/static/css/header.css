@@ -1,0 +1,77 @@
+.header-container {
+    width: 100%;
+}
+
+.header_title {
+    font-weight: bold;
+}
+
+.header_desc p {
+    margin: 5px 0;
+}
+
+.header_desc {
+    display: inline-block;
+    width: 80%;
+}
+
+.header-container .share_box {
+    float: right;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 124px;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+}
+
+.header-container .share_box .share_img {
+    min-height: 64px;
+    height: auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/share_person.png);
+}
+
+@media (max-width:769px) {
+    .header_desc {
+        display: inline-block;
+        width: 75%;
+    }
+    .header-container .text-right {
+        text-align: center
+    }
+    .size_xxxl {
+        font-size: 1.8rem;
+        padding: 0 10px;
+    }
+    .movie_list {
+        margin: 0px;
+        padding: 0px;
+    }
+    .movie_list img {
+        width: 100%;
+    }
+    .header_desc p {
+        padding: 0 10px;
+    }
+    .header_desc {
+        width: 75%;
+    }
+    .header-container .share_box {
+        width: 72px;
+        margin: 10px auto;
+    }
+    .header-container .share_box .share_img {
+        min-height: 40px;
+    }
+}
+
+@media (max-width:376px) {
+    .header-container .share_box {
+        width: 64px;
+    }
+    .header-container .share_box .share_img {
+        min-height: 35px;
+    }
+}

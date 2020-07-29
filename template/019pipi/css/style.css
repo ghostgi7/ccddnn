@@ -1,0 +1,239 @@
+/**
+头部样式
+*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+body{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(249,249,249);
+    padding: 64px 0;
+    position: relative;
+}
+#header{
+    position: fixed;
+    top:0;
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%;
+    height: 56px;
+    background: #fff;
+    z-index: 999;
+}
+#header .path_bar{
+    width: calc(100% - 56px);
+    height: 56px;
+    line-height: 56px;
+    float: left;
+    display: block;
+    overflow: scroll;
+}
+#header .path_bar ul{
+    list-style: none;
+    width: 100%;
+    white-space:nowrap;
+}
+#header .path_bar ul li{
+    display: inline;
+    padding: 0 16px;
+}
+
+#header .path_bar ul li a{
+    font-family: "微软雅黑 Light";
+    color: rgb(115,115,115);
+    font-size: 16px;
+}
+#header .path_bar ul li.active a{
+    font-size: 20px;
+    color: #fe6977;
+}
+#header .search{
+    width: 56px;
+    height: 56px;
+    float: right;
+    line-height: 56px;
+    text-align: center;
+}
+#header .search i{
+    line-height: 56px;
+    width: 100%;
+    font-size: 1.33333333em
+}
+.search-box{
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin-bottom: 8px;
+    margin-top: -40px;
+    transition: all .5s;
+}
+.search-box.active{
+    margin-top: 0px;
+}
+.search-box input.search-input{
+    width: calc(100% - 16px);
+    height: 32px;
+    background: #fff;
+    border: none;
+    border-radius: 16px;
+    margin-left: 8px;
+    text-indent: 16px;
+    outline: none;
+}
+/**
+主体样式
+*/
+.sectionContent .col-style{
+    display: block;
+    padding: 8px 0;
+    margin-top: 8px;
+    background-color: #fff;
+}
+.sectionContent .col-style .userinfo{
+    padding: 0 8px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+.sectionContent .col-style .userinfo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline;
+    float: left;
+}
+.sectionContent .col-style .userinfo span{
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 8px;
+}
+.sectionContent .col-style .videoBox-content .videoBox-cover{
+    width: 100%;
+    height: 200px;
+}
+.sectionContent .col-style .videoBox-content .videoBox-info{
+    margin: 4px 0;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    color: #000;
+}
+.sectionContent .col-style .videoBox-content .videoBox-bar ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: -8px;
+}
+.sectionContent .col-style .videoBox-content .videoBox-bar ul li{
+    flex: 1;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+}
+
+/**
+底部样式
+*/
+#footer{
+ position: fixed;
+    bottom:0;
+    max-width: 480px;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    z-index: 999;
+}
+#footer ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+#footer ul li{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: block;
+    flex: 1;
+}
+#footer ul li a{
+    color:#000;
+}
+#footer ul li span{
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 24px;
+    margin: 6px auto;
+    color: #fff;
+    background-color: #fe6977;
+}
+#footer ul li p:nth-child(1){
+    margin-top: 5px;
+    line-height: 20px;
+}
+#footer ul li p:nth-child(2){
+    line-height: 20px;
+}
+#footer ul li p:nth-child(1) i{
+    line-height: 30px;
+}
+
+/*
+分页
+*/
+.pagenation p{
+    margin-top: 4px;
+    text-align: center;
+}
+.pagenation p:nth-child(1){
+    display: flex;
+}
+.pagenation p:nth-child(1) a{
+    flex:1;
+    margin:0 8px;
+}
+.pagenation a{
+    display: inline-block;
+    padding: 4px 16px;
+    background-color: #fe6977;
+    border-radius: 4px;
+    color: #fff;
+}
+/*
+小说
+*/
+.art-list{
+    list-style: none;
+}
+.art-list p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 32px;
+    border-bottom: #fe6977 1px dashed;
+}
+.art-list p a{
+    color: #000;
+}
+.book-content span{
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+}
+/*
+图片
+*/
+.img-content img{
+    width: 100%;
+}

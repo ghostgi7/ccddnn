@@ -1,0 +1,17 @@
+.hd{
+    position: relative;
+}
+.hd:after{
+    position: absolute;
+    content: "hd";
+    display: block;
+    width: 24px;
+    padding: 2px 0;
+    line-height: 10px;
+    background: #ff1500;
+    border-radius: 12px;
+    font-size: 10px;
+    color: #ffffff;
+    top: 4px;
+    right: -10px;
+}

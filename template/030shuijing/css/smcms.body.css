@@ -1,0 +1,176 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background: #355c7d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+body::-webkit-scrollbar { /*滚动条整体样式*/
+    width: 7px; /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+body::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #535353;
+}
+body::-webkit-scrollbar-track { /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    background: #041618;
+}
+.smcms-wrap{
+    margin-left: 50%;
+    width: 74%;
+    max-width: 980px;
+    transform: translateX(-50%);
+}
+header{
+    width:100%;
+    padding: 5px 0;
+    background-color: rgba(0,0,0,0.3);
+}
+header img{
+    width: 200px;
+    vertical-align: middle;
+}
+header h1{
+    display: inline!important;
+}
+.header-title{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-family: SimSun STSong;
+}
+.layui-nav-child{
+    z-index: 1000!important;
+}
+.search-wrap{
+    margin-left: 20px;
+    vertical-align: middle;
+    float: right;
+    display: none;
+}
+.search-wrap input{
+    vertical-align: middle;
+    display:inline-block;
+    border: 2px solid #eee;
+    border-right: 0;
+    padding-left:15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+    background-color: #ddd;
+    color:#444;
+    font-size:medium;
+    box-sizing: content-box;
+}
+.search-wrap #searchBtn{
+    vertical-align: middle;
+    display:inline-block;
+    background: #1E9fff;
+    color: #efefef;
+    border: 0;
+    height: 34px;
+    margin-left: -8px;
+    padding: 0 15px 0 12px;
+    border-radius: 0 20px 20px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.search-wrap #menuBtn{
+    display: none;
+}
+.clear{
+    clear: both;
+}
+div[carousel-item] img{
+    width: 100%;
+    height: 100%;
+}
+carousel-item .notice{
+    padding: 5px!important;
+}
+.layui-nav-child dd{
+    z-index: 1100;
+}
+.cat-wrap{
+    margin: 10px 0;
+}
+.cat-wrap a:hover{
+    color: white!important;
+    font-style: italic;
+}
+.cat-title{
+    display:inline-block;
+    background: rgba(30,159,255,0.7);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #efefef;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.cat-item{
+    display:inline-block;
+    background: rgba(1,1,1,0.1);
+    text-align: center;
+    padding: 5px 16px;
+    border-radius: 5px;
+    color: #eee;
+    margin-left: 16px;
+    margin-bottom: 5px;
+}
+@media screen and (max-device-width: 760px) {
+    .smcms-wrap{
+        margin:0;
+        width: 100%;
+        transform: none;
+    }
+    header{
+        padding: 20px 0;
+    }
+    header img{
+        width: 30%;
+    }
+    .header-title{
+        margin-left:5px;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .layui-nav{
+        display: none;
+    }
+    .search-wrap{
+        margin-top:5px;
+        float: right;
+    }
+    .search-wrap input{
+        width: 130px;
+    }
+    .search-wrap #menuBtn{
+        display: inline-block;
+        background-color: red;
+        vertical-align: middle;
+        display:inline-block;
+        color: #efefef;
+        border: 0;
+        height: 34px;
+        margin-left: 5px;
+        padding: 0 15px 0 12px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+    .redbg a{
+        background-color: red!important;
+    }
+}

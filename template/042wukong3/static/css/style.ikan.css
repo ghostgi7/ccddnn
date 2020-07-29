@@ -1,0 +1,16 @@
+//
+.article_box .article_content p {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0.25rem 0px;
+	font-size:0.425rem;
+	line-height:0.75rem;
+	text-align:justify;
+	white-space:normal;
+	color:#444;
+}
+.article_box .article_content img {
+	max-width:100%!important;
+	border-radius:4px;
+}
+//

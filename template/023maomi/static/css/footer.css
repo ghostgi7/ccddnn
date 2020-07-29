@@ -1,0 +1,33 @@
+
+
+@media screen and (min-width:769px){
+
+    .footer-container {
+        margin-top: 20px;
+        line-height: 22px;
+    }
+
+    .footer-container .row {
+        margin-bottom: 10px;
+    }
+
+    .footer-container .buy-link {
+        border-radius: 16px;
+    }
+}
+
+@media screen and (max-width:769px){
+    .footer-container {
+        margin-top: 20px;
+        line-height: 22px;
+    }
+
+    .footer-container .row {
+        margin-bottom: 10px;
+        padding: 5px 10px;
+    }
+
+    .footer-container .buy-link {
+        border-radius: 16px;
+    }
+}

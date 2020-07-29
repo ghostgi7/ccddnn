@@ -1,0 +1,278 @@
+/*html,*/
+
+
+/*body {*/
+
+
+/*overflow: auto;*/
+
+
+/*padding: 0px;*/
+
+
+/*margin: 0px;*/
+
+
+/*}*/
+
+
+/*iframe {*/
+
+
+/*margin: 0;*/
+
+
+/*border: 0;*/
+
+
+/*height: auto;*/
+
+
+/*width: 100%;*/
+
+
+/*overflow: hidden;*/
+
+
+/*}*/
+.flowplayer{
+    position: relative;
+    display: block;
+}
+.flowplayer .fp-player {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.down-help {
+    text-align: left;
+    /*height: 45px;*/
+    /*line-height: 45px;*/
+}
+.container .row.film-operate {
+    text-align: left;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.film-operate .title {
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 50px;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.film-operate .remark {
+    text-align: right;
+    font-size: 0.75em;
+    margin: 1px;
+}
+
+.film-operate .content {
+    line-height: 30px;
+    padding: 5px 0;
+}
+
+.film-operate .content .row {
+    margin-bottom: 5px;
+}
+
+.film-operate .content .copy-url {
+    padding: 5px 7px;
+}
+
+.film-operate .content a {
+    padding: 5px 30px;
+    margin: 5px 0;
+}
+
+.downlist a img {
+    width: 100px;
+}
+
+@media (max-width:769px) {
+    .container .row.film_info {
+        width: 100%;
+    }
+    .container .row.film-operate {
+        width: 73%;
+    }
+    .pull-left-mobile1 {
+        width: 40%;
+    }
+    .pull-left-mobile2 {
+        width: 55%;
+    }
+    .pull-right {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .pull-left-mobile1 img {
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+    }
+    .hy-layout {
+        width: 100%;
+        background: #eee;
+        margin: 20px 0 0 0;
+    }
+    .table .form-control {
+        margin: 0 0 0 8px;
+        height: 33px;
+        outline: 0;
+        -webkit-appearance: none;
+        background-color: #ccc;
+        /*color: #999;*/
+    ;
+        /*border: 1px solid #444;*/
+        border: none;
+        width: 90%;
+        padding-left: 5px;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .pull-left-mobile2 p {
+        margin: 5px;
+    }
+    .downlist a img {
+        margin-top: 3px;
+        transform: translateY(9px);
+    }
+    .down-help a img {
+        width: 100px;
+        margin: 8px 0 0 8px;
+    }
+    @media (min-width:766px) {
+        .pull-left-mobile1 {
+            width: 20%;
+        }
+        .pull-left-mobile2 {
+            width: 30%;
+        }
+        .pull-right {
+            width: 40%;
+            margin-top: 15px;
+        }
+    }
+    .down-help {
+        height: 45px;
+        line-height: 45px;
+    }
+}
+
+@media (min-width:769px) {
+    .hy-layout {
+        width: 100%;
+        background: #eee;
+        margin: 20px 0 0 0;
+    }
+    .table .form-control {
+        margin: 0 0 0 8px;
+        height: 33px;
+        outline: 0;
+        -webkit-appearance: none;
+        background-color: #ccc;
+        border: none;
+        width: 95%;
+        padding-left: 5px;
+    }
+    .down-help a img {
+        width: 190px;
+        margin: 10px 10px 0 10px;
+    }
+}
+
+.hy-switch-tabs .nav-tabs,
+.table>thead>tr>th {
+    border-bottom: 2px solid #ccc;
+}
+
+.hy-switch-tabs .nav-tabs li a {
+    padding: 0 0 10px;
+    font-size: 16px;
+    border: 0;
+    background: 0 0;
+    border-radius: 0;
+    color: white;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    /*line-height: 1.42857143;*/
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    /*padding: 10px 15px;*/
+}
+
+.nav-tabs>ul {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    width: 100px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    margin: 10px
+}
+
+.playlist table tr a {
+    color: #444;
+;
+    background-color: #bbb;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 15px;
+}
+
+.playlist table tr td {
+    width: 100%;
+    margin: 0 5px;
+    padding: 0 10px;
+    color: #444;
+}
+
+.playlist table tr {
+    width: 100%;
+    margin: 5px 0;
+    height: 50px;
+}
+
+.hy-play-list {
+    display: none;
+}
+
+.active {
+    display: block !important;
+}
+
+
+
+.downlist {
+    text-align: left;
+}
+
+.table {
+    width: 95%
+}
+
+.bdsharebuttonbox a {
+    color: red;
+}
+
+.downlist a {
+    color: #444;
+}
